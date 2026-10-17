@@ -1,0 +1,19 @@
+# Gradle / Android build output
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+*.apk
+*.aab
+
+# Secrets: never commit API keys
+*.jks
+*.keystore
+secrets.properties
+.env
+
+# OS
+.DS_Store
+Thumbs.db
